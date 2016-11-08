@@ -1,0 +1,420 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+   font-family: sans-serif;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+}
+.continer{
+	position: absolute;
+}
+#header{
+	width: 1200px;
+	height: 300px;
+	background-image: url(../img/2.png);
+	background-size: 1200px 300;
+	background-repeat: nno-repeat;
+	position: relative;
+	left: 80px;
+}
+/*Меню*/
+#nav-bar{
+	width:1200px;
+	height: 50px;
+	background-color: #0089A2;
+	position: relative;
+	left: 80px;
+	top: 10px;
+	float: left;
+	
+}
+ul-navbar{
+	position: absolute;
+}
+#ul-navbar li{
+	display: inline-block;
+	margin-right: 20.5px;
+	transition: 0.3s;
+}
+#ul-navbar li a:hover{
+	transition: 0.3s;
+	background-color:#42CEE4;
+}
+#ul-navbar li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 19px;
+	padding-bottom: 20px;
+}
+#ul-navbar .a-index{
+	background-color:#42CEE4;
+}
+/*Конец Меню*/
+/*Левый блок*/
+#left{
+	width: 220px;
+	height: auto;
+	position: relative;
+	left: 80px; 
+	top: 20px;
+	float: left;
+	background-color: #0089A2;
+}
+/*Конец Левый блок*/
+/*Левый блок, лидер семестра*/
+.lider-title{
+	text-align: center;
+	font-size: 14pt;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #569CD6;
+	color: #569CD6;
+	width: 180px;
+}
+.lider-photo{
+	box-shadow: 5px 5px 0px #DEDEDE;
+   	width: 200px;
+	height: 150px;
+	background-image: url(../img/lider.jpg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 10px;
+}
+.lider-name{
+	position: relative;
+	top: 20px;
+	line-height: 20px;
+	color: #666;
+	font-style: italic;
+	text-align: center;
+}
+/*Конец Левый блок, лидер семестра*/
+/*Левый блок, новости*/
+.sup{
+	background-color: #35A000;
+	border-radius: 5px 5px 5px 5px;
+	color: #fff;
+	font-size: 8pt;
+	padding: 2px;
+}
+.News-title{
+	text-align: center;
+	font-size: 14pt;
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #B178BB;
+	color: #B178BB;
+	width: 180px;
+}
+.News-name{
+	color: #666;
+	margin-top: 5px;
+}
+.News-photo{
+	box-shadow: 5px 5px 0px #DEDEDE;
+    width: 200px;
+	height: 150px;
+	background-image: url(../img/News/iphone6.jpg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 10px;
+}
+.News-description{
+	padding-top: 15px;
+	color: #666;
+}
+/*Конец Левый блок, новости*/
+/*Центральный блок*/
+#center{
+	width: 940px;
+	height: auto;
+	position: relative;
+    float: left;
+	left: 120px;
+	top: 20px;
+}
+/*Конец Центральный блок*/
+/*Центральный блок новости*/
+.Center-title{
+	position: relative;
+	text-align: center;
+	font-size: 16pt;
+	border-bottom: 3px solid #569CD6;
+	color: #569CD6;
+	top: -15px;	
+}
+.table-center{
+	max-width: 228px;
+	margin-left: 60px;
+	background-color: #eee;
+	box-shadow: 5px 5px 0px #DEDEDE;
+	display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+.table-photo{
+	width: 228px;
+	height: 200px;
+}
+.views{
+	color: #569CD6;
+	border-bottom: solid 1px #569CD6;
+	font-style: italic;
+}
+.table-center a{
+	text-decoration: none;
+	color: #4D4D4D;
+}
+/*Конец Центральный блок новости*/
+/*Нижный блок*/
+footer{
+	width: 1200px;
+	height: 150px;
+	background-color:  #005362;
+	clear: both;
+	position: relative;
+	top: 40px;
+	left: 80px;
+}
+.developer{
+	font-size: 15pt;
+	color: #fff;;
+	position: relative;
+	left: 30px;
+	top: 20PX;
+	font-weight: bold;
+}
+.developer-name{
+	position: relative;
+	left: 30px;
+	top: 30PX;
+	color: #fff;
+	font-size: 14pt;
+}
+.footer-info{
+	font-size: 15pt;
+	color: #fff;
+	position: relative;
+	left: 400px;
+	top: -25PX;
+	font-weight: bold;
+	float: left;
+}
+/*Конец нижный блок*/
+/*Страница новости полный */
+.news-page{
+    margin:10px;
+	color:#424242;
+}
+.news-page-photos{
+	margin-left: 50px;
+	margin-top: 10px;
+   
+}
+/*Конец Страница новости полны*/
+/*Главное страницо*/
+.index-text{
+	 color:#424242;
+}
+/*Конец Главное страницо*/
+/*View-post*/
+.post-add{
+	 color:#424242;
+	 font-size: 14px;
+	 font-style: italic;
+	 margin-top: 10px;
+	 margin-left: 10px;
+	 
+}
+/*Конец View-post*/
+/*Поиск*/
+.form-s{
+	position: relative;
+	top: 260px;
+}
+.form-title{
+	text-align: center;
+	font-size: 14pt;
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #569CD6;
+	color: #569CD6;
+	width: 180px;
+}
+.form-desc{
+	color: #666;
+	font-size: 10pt;
+}
+.form-but{
+	border: 1px solid #569CD6;
+	margin-top: 10px;
+	width: 208px;
+	color: #fff;
+	background-color: #569CD6;
+}
+/*Конец Поиск*/
+/*Стил главное декан*/
+.dekan-in{
+     margin-left: 270px;
+}
+.dekan-name{
+	 font-size: 16pt;
+     text-align: center;
+	 color: #666;
+}
+/*Конец Стил главное декан*/
+/*Руководство*/
+.table-rukov{
+	color: #666;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+/*Конец Ркуоводство*/
+/*Админская часть меню*/
+p.title {
+border-bottom: 3px solid #eee;
+color: #fff;
+margin:5px;
+padding:5px;
+font-size: 14pt;
+width: 200px;
+}
+
+#coolmenu{
+/*border: 1px solid #569CD6; /*Стиль рамки */
+width: 207px; /*Ширина меню */
+margin:8px; /*Ширина отступов*/
+margin-bottom: 15px;
+}
+
+* html #coolmenu{ 
+width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+display: block;
+width: 100%; /*Ширина ячейки*/
+color: #eee;  /*Цвет текста*/
+text-decoration: none; /*Подчеркивание у ссылок - нет*/
+transition: 0.2s;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #fff; /*Фоновый цвет ячейки при наведение курсора*/
+color: #0089A2;  /*Цвет текста при наведении курсора*/
+margin-left: 50px;
+transition: 0.2s;
+background-color: #fff;
+
+}
+
+/*Конец Админская часть меню*/
+/*Сообщение при добавление, изменение и кнопка отправить*/
+#info{
+	text-align: center;
+	background-color: #0089A2;
+	width: 500px;
+	position: relative;
+	left: 200px;
+	padding: 20px;
+	box-shadow: inset 0px 0px 0px 5px #eee;
+	color: #eee;
+	font-size: 14pt;
+}
+#submit{
+	background-color: #006A7D;
+	padding: 5px;
+	color: #fff;
+	font-size: 14pt;
+	border: 1px solid #006A7D;
+	transition: 0.3s;
+}
+#submit:hover{
+	border: 1px solid #006A7D;
+	background-color: #fff;
+	color: #006A7D;
+	transition: 0.3s;
+}
+select{
+	width: 300px;
+	font-size: 12pt;
+	margin-bottom: 30px;
+	background-color: #006A7D;
+	color: #fff;
+	border: 0px; 
+	padding: 3px;
+}
+input{
+	width: 300px;
+	font-size: 12pt;
+	margin-bottom: 20px;
+	background-color: #006A7D;
+	color: #fff;
+	border: 0px; 
+	padding: 3px;
+}
+label{
+	color: #003F4A;
+	
+}
+textarea{
+	width: 300px;
+	border: 2px solid #006A7D; 
+	padding: 3px;
+	margin-bottom: 10px;
+}
+::-webkit-scrollbar{
+	background-color:  #fff; 
+}
+::-webkit-scrollbar-thumb{
+	background-color:  #006A7D;
+}
+/*Конец Сообщение при добавление, изменение и кнопка отправить*/
+/*Статистика*/
+#status{
+    font-size: 15pt;
+	color: #fff;
+	position: relative;
+	left: 500px;
+	top: -25PX;
+	font-weight: bold;
+	float: left;
+}
+#status-date{
+	padding-top: 20px;
+	font-size: 12pt;
+	color: #fff;
+	font-weight: 300;
+}
+/*Конец Статистика*/
+/*Edit post ссылки*/
+.edit-post{
+	font-size: 14pt;
+	color: #0089A2;
+	text-decoration: none;
+	transition: 0.1s;
+	padding: 4px;	
+}
+.edit-post:hover{
+	margin-left: 20px;
+    background-color:#0089A2;
+	color: #fff; 
+	transition: 0.1s;	
+	
+}
+#edit-post{
+	margin-bottom: 10px;
+}
+/*Конец Edit post ссылки*/

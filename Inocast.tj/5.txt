@@ -1,0 +1,23 @@
+/*Muhammadali*/
+.lab-ul{
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: left;  
+  padding-bottom: 20px;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}
+.lab-num{
+  text-align: left; 
+}
+.lab-h5{
+  text-align: left;
+}
+.index-news{
+text-align:left;
+ font-weight: bold;
+padding-bottom:30px;
+}
+.index-news-cont{
+text-align:left;
+}

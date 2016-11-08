@@ -1,0 +1,310 @@
+﻿html{
+   font-family: sans-serif,Arial, Helvetica;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+}
+.continer{
+	position:absolute;
+}
+#header{
+	width: 1200px;
+	height: 300px;
+	background-image: url(../img/header.png);
+	background-size: 1200px 300;
+	background-repeat: no-repeat;
+    margin-left: 80px;
+}
+/*Меню*/
+#nav-bar{
+	width:1200px;
+	height: 50px;
+	background-color: #0089A2;
+	margin-left: 80px;
+	margin-top: 10px;
+	float: left;
+	
+}
+/*ul-navbar{
+	position: absolute;
+}*/
+#ul-navbar li{
+	display: inline-block;
+	margin-right: 20.5px;
+	transition: 0.3s;
+}
+#ul-navbar li a:hover{
+	transition: 0.3s;
+	background-color:#42CEE4;
+}
+#ul-navbar li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 19px;
+	padding-bottom: 20px;
+}
+#ul-navbar .a-index{
+	background-color:#42CEE4;
+}
+/*Конец Меню*/
+/*Левый блок*/
+#left{
+	width: 200px;
+	height:1000px;
+	margin-left: 80px; 
+	margin-top: 20px;
+	float: left;
+}
+/*Конец Левый блок*/
+/*Левый блок, лидер семестра*/
+.lider-title{
+	text-align: center;
+	font-size: 14pt;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #569CD6;
+	color: #569CD6;
+	width: 180px;
+}
+.lider-photo{
+	box-shadow: 5px 5px 0px #DEDEDE;
+   	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+}
+.lider-name{
+	margin-top: 20px;
+	line-height: 20px;
+	color: #666;
+	font-style: italic;
+	text-align: center;
+}
+/*Конец Левый блок, лидер семестра*/
+/*Левый блок, новости*/
+.sup{
+	background-color: #35A000;
+	border-radius: 5px 5px 5px 5px;
+	color: #fff;
+	font-size: 8pt;
+	padding: 2px;
+}
+.News-title{
+	text-align: center;
+	font-size: 14pt;
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #B178BB;
+	color: #B178BB;
+	width: 180px;
+}
+.News-name{
+	color: #666;
+	margin-top: 5px;
+}
+.News-photo{
+	box-shadow: 5px 5px 0px #DEDEDE;
+        width: 200px;
+	height: 200px;
+	margin-top: 10px;
+}
+.News-description{
+	margin-top:30px;
+	color: #666;
+}
+/*Конец Левый блок, новости*/
+/*Центральный блок*/
+#center{
+	width: 960px;
+	height: auto;
+        float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+/*Конец Центральный блок*/
+/*Центральный блок новости*/
+.Center-title{
+	text-align: center;
+	font-size: 16pt;
+	border-bottom: 3px solid #569CD6;
+	color: #569CD6;
+	margin-top: 6px;	
+	width: 980px;
+}
+.table-center{
+	max-width: 228px;
+	margin-left: 60px;
+	background-color: #eee;
+	box-shadow: 5px 5px 0px #DEDEDE;
+	display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+.table-photo{
+	width: 228px;
+	height: 200px;
+}
+.views{
+	color: #569CD6;
+	border-bottom: solid 1px #569CD6;
+	font-style: italic;
+}
+.table-center a{
+	text-decoration: none;
+	color: #4D4D4D;
+}
+/*Конец Центральный блок новости*/
+/*Нижный блок*/
+footer{
+	width: 1200px;
+	min-height: 170px;
+	background-color:  #005362;
+	clear: both;
+	margin-left: 80px;
+}
+.developer{
+	font-size: 15pt;
+	color: #fff;;
+	margin-left: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.developer-name{
+	color: #fff;
+	font-size: 12pt;
+}
+.footer-info{
+	font-size: 13pt;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: 50px;
+	font-weight: bold;
+	float: left;
+}
+/*Конец нижный блок*/
+/*Страница новости полный */
+.news-page{
+    margin:10px;
+	color:#424242;
+}
+.news-page-photos{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+/*Конец Страница новости полны*/
+/*Главное страницо*/
+.index-text{
+	 color:#424242;
+	 padding-left: 10px;
+}
+/*Конец Главное страницо*/
+/*View-post*/
+.post-add{
+	 color:#424242;
+	 font-size: 14px;
+	 font-style: italic;
+	 margin-top: 10px;
+	 margin-left: 10px; 
+}
+/*Конец View-post*/
+/*Поиск*/
+.form-s{
+	margin-top: -110px;
+	margin-left: 960px;
+	width: 200px;
+}
+.form-title{
+	text-align: center;
+	font-size: 15pt;
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #fff;
+	color: #fff;;
+    width: 180px;
+}
+.form-desc{
+	color: #fff;
+	font-size: 11pt;
+	width: 200px;
+}
+#input-search{
+	border: 0px;
+	padding: 3px;
+	min-width: 200px;
+}
+.form-but{
+	border: 0px;
+	margin-top: 10px;
+	width: 208px;
+	color: #fff;
+	padding: 5px;
+	background-color: #BB2C2C;
+	font-weight: bold;
+}
+/*Конец Поиск*/
+/*Стил главное декан*/
+.dekan-in{
+     margin-left: 270px;
+}
+.dekan-name{
+	 font-size: 16pt;
+     text-align: center;
+	 color: #666;
+}
+/*Конец Стил главное декан*/
+/*Руководство*/
+.table-rukov{
+	color: #666;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+/*Конец Ркуоводство*/
+/*Статистика*/
+#status{
+    font-size: 15pt;
+	color: #fff;
+	margin-left: 160px;
+	margin-top: -90px;
+	font-weight: bold;
+	float: left;
+}
+#status-title{
+	border-bottom: 3px solid #fff;
+	text-align: center;
+}
+#status-date{
+	font-size: 12pt;
+	font-weight: 300;
+    line-height: 20px
+}
+/*Конец Статистика*/
+/*Ссылки кафедры*/
+#a-kafedri{
+	text-decoration: none;
+	color: #0089A2;
+    line-height: 30px;
+	padding: 5px;
+}
+#a-kafedri:hover{
+	border: 1px solid #0089A2;
+	
+}
+/*Конец Ссылки кафедры*/
+/*timetable-select*/
+#timetable-select{
+	overflow-x: scroll;
+	width: 980px;
+	height: 40px;
+	border: 1px solid #0089A2;
+	background-color: #0089A2;
+	font-size: 14pt;	
+	color: #fff;
+	padding-left: 10px;
+}
+#timetable-label{
+	font-size: 16pt;	
+	color: #626262;
+	text-align: center;
+}
+/*Конец timetable-select*/
